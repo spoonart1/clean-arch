@@ -14,3 +14,18 @@ A production-oriented Android application demonstrating:
 - Paging 3
 - Unit Testing
 - UI Testing
+
+
+## API:
+- Github Repositories
+
+## Features:
+Search repositories
+        ↓
+Repository list
+        ↓
+Repository detail
+        ↓
+Favorite repository
+        ↓
+Offline cache
