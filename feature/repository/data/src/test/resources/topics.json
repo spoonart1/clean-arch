@@ -1,0 +1,20 @@
+{
+  "names": [
+    "kotlin",
+    "ui",
+    "multiplatform",
+    "desktop",
+    "swing",
+    "awt",
+    "gui",
+    "compose",
+    "android",
+    "javascript",
+    "reactive",
+    "declarative-ui",
+    "ios",
+    "wasm",
+    "web",
+    "webassembly"
+  ]
+}
