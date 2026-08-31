@@ -28,6 +28,10 @@ dependencies {
     implementation(project(":feature:repository:domain"))
     implementation(project(":feature:repository:data"))
     implementation(project(":feature:repository:local"))
+    implementation(project(":core:database"))
+
+    implementation(libs.paging.runtime)
+    implementation(libs.retrofit)
 
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)

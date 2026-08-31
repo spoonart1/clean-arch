@@ -9,5 +9,6 @@ data class RepositoryEntity(
     val name: String,
     val description: String?,
     val ownerUsername: String,
-    val ownerAvatarUrl: String
+    val ownerAvatarUrl: String,
+    val rankOrder: Int
 )

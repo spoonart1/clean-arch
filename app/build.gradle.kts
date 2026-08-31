@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.ksp)
     alias(libs.plugins.hilt.android)
+    alias(libs.plugins.compose.compiler)
 }
 
 android {
@@ -32,6 +33,9 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
+    buildFeatures {
+        compose = true
+    }
 }
 
 dependencies {
@@ -41,12 +45,18 @@ dependencies {
     implementation(project(":feature:repository:domain"))
     implementation(project(":feature:repository:local"))
     implementation(project(":feature:repository:repositoryimpl"))
+    implementation(project(":feature:repository:presentation"))
 
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.core.ktx)
     implementation(libs.material)
 
     implementation(libs.retrofit)
+
+    implementation(platform(libs.compose.bom))
+    implementation(libs.compose.ui)
+    implementation(libs.compose.material3)
+    implementation(libs.activity.compose)
 
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)

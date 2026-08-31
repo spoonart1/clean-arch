@@ -5,13 +5,14 @@ import com.spoonart1.domain.model.RepositoryOwnerModel
 import com.spoonart1.local.entity.RepositoryEntity
 import com.spoonart1.data.remote.dto.RepositoryDto
 
-fun RepositoryDto.toEntity(): RepositoryEntity =
+fun RepositoryDto.toEntity(rankOrder: Int): RepositoryEntity =
     RepositoryEntity(
         id = id,
         name = name,
         description = description,
         ownerUsername = owner.login,
-        ownerAvatarUrl = owner.avatarUrl
+        ownerAvatarUrl = owner.avatarUrl,
+        rankOrder = rankOrder
     )
 
 fun RepositoryEntity.toModel(): RepositoryModel =

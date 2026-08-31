@@ -1,5 +1,6 @@
 package com.spoonart1.local.dao
 
+import androidx.paging.PagingSource
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
@@ -12,6 +13,9 @@ interface RepositoryDao {
 
     @Query("SELECT * FROM repositories")
     fun observeRepositories(): Flow<List<RepositoryEntity>>
+
+    @Query("SELECT * FROM repositories ORDER BY rankOrder ASC")
+    fun pagingSource(): PagingSource<Int, RepositoryEntity>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun upsertAll(repositories: List<RepositoryEntity>)
