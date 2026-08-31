@@ -14,6 +14,8 @@ kotlin {
 }
 
 dependencies {
+    implementation(project(":feature:repository:domain"))
+
     implementation(libs.retrofit)
     implementation(libs.retrofit.converter.moshi)
     implementation(libs.moshi)

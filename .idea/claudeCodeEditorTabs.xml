@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ClaudeCodeEditorTabs">
-    <option name="activeSessionId" value="3c6da35d-6542-4f3b-a113-c4d636ccf10b" />
+    <option name="activeSessionId" value="90a278a9-67ef-4f8c-b0cb-7064dfc2f02e" />
     <option name="openSessionIds">
       <list>
         <option value="e5ff8933-3c7f-4b6a-a9a8-2dd2077b7403" />
         <option value="496a2fcb-0759-4925-b28d-56bbbea27106" />
         <option value="f5a61856-e3ab-48ec-a14a-9a32803fa73c" />
-        <option value="3c6da35d-6542-4f3b-a113-c4d636ccf10b" />
+        <option value="90a278a9-67ef-4f8c-b0cb-7064dfc2f02e" />
       </list>
     </option>
     <option name="sessionPaths">
       <map>
-        <entry key="3c6da35d-6542-4f3b-a113-c4d636ccf10b" value="/sessions/new" />
         <entry key="496a2fcb-0759-4925-b28d-56bbbea27106" value="/sessions/17f28015-a74b-45d4-9f30-893920988755" />
+        <entry key="90a278a9-67ef-4f8c-b0cb-7064dfc2f02e" value="/sessions/new" />
         <entry key="e5ff8933-3c7f-4b6a-a9a8-2dd2077b7403" value="/sessions/e906f5ce-dd4a-4818-ad6a-dc8d33ec23f8" />
         <entry key="f5a61856-e3ab-48ec-a14a-9a32803fa73c" value="/settings/releases" />
       </map>
     </option>
     <option name="sessionTitles">
       <map>
-        <entry key="3c6da35d-6542-4f3b-a113-c4d636ccf10b" value="Claude Code" />
         <entry key="496a2fcb-0759-4925-b28d-56bbbea27106" value="add gson dependency to :featture:repository:data" />
+        <entry key="90a278a9-67ef-4f8c-b0cb-7064dfc2f02e" value="Claude Code" />
         <entry key="e5ff8933-3c7f-4b6a-a9a8-2dd2077b7403" value="convert this module to java/kotlin library D:\Spoo" />
         <entry key="f5a61856-e3ab-48ec-a14a-9a32803fa73c" value="convert this payload to RepositorySearchResponse," />
       </map>

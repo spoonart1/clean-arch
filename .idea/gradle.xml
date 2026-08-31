@@ -17,7 +17,9 @@
             <option value="$PROJECT_DIR$/feature/repository" />
             <option value="$PROJECT_DIR$/feature/repository/data" />
             <option value="$PROJECT_DIR$/feature/repository/domain" />
+            <option value="$PROJECT_DIR$/feature/repository/local" />
             <option value="$PROJECT_DIR$/feature/repository/presentation" />
+            <option value="$PROJECT_DIR$/feature/repository/repositoryimpl" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -24,9 +24,10 @@ dependencyResolutionManagement {
 
 rootProject.name = "Clean Arch"
 include(":app")
-include(":core")
 include(":core:network")
 include(":core:database")
 include(":feature:repository:data")
 include(":feature:repository:domain")
+include(":feature:repository:local")
+include(":feature:repository:repositoryimpl")
 include(":feature:repository:presentation")

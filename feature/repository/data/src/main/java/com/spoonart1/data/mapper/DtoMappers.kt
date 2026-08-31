@@ -1,10 +1,10 @@
 package com.spoonart1.data.mapper
 
-import com.spoonart1.data.model.LicenseModel
-import com.spoonart1.data.model.ReadmeModel
-import com.spoonart1.data.model.RepositoryModel
-import com.spoonart1.data.model.RepositoryOwnerModel
-import com.spoonart1.data.model.TopicsModel
+import com.spoonart1.domain.model.LicenseModel
+import com.spoonart1.domain.model.ReadmeModel
+import com.spoonart1.domain.model.RepositoryModel
+import com.spoonart1.domain.model.RepositoryOwnerModel
+import com.spoonart1.domain.model.TopicsModel
 import com.spoonart1.data.remote.dto.LicenseDto
 import com.spoonart1.data.remote.dto.OwnerDto
 import com.spoonart1.data.remote.dto.ReadmeDto
