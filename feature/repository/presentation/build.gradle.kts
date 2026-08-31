@@ -47,6 +47,8 @@ dependencies {
     implementation(libs.paging.runtime)
     implementation(libs.paging.compose)
     implementation(libs.glide)
+    implementation(libs.haze)
+    implementation(libs.haze.materials)
 
     implementation(libs.hilt.android)
     implementation(libs.hilt.navigation.compose)
